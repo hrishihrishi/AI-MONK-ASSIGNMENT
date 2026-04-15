@@ -39,9 +39,9 @@ export default function App() {
           marginLeft: "10px",
         }}
       >
-        Download CSVvvvvvvvvvvvvvvvv
+        Download CSV
       </button>
-      hi
+      
     </div>
   );
 }
