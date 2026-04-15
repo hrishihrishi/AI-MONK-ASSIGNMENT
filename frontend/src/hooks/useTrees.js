@@ -50,6 +50,7 @@ export const useTrees = () => {
         await treeService.deleteData(treeObject);
       }
       setTrees(prev => prev.filter(t => t !== treeObject));
+      window.location.reload();
     } catch (err) { console.error(err); }
   };
 

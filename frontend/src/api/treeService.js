@@ -37,6 +37,6 @@ export const treeService = {
       body: JSON.stringify(data)
     });
     if (!response.ok) throw new Error("Backend not reachable");
-    return response.json();
+    // return response.json();
   }
 }
