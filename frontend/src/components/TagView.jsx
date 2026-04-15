@@ -14,7 +14,7 @@ const TagView = ({ node, onUpdate }) => {
   // Requirement: "Add Child" replaces "data" with "children" [cite: 10, 25]
   const addChild = () => {
     const newNode = { ...node };
-    delete newNode.data;
+    // delete newNode.data;
     newNode.children = [...(newNode.children || []), { name: 'New Child', data: 'Data' }];
     onUpdate(newNode);
   };
